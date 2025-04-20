@@ -1,60 +1,60 @@
 body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1D1A6F;
-    color: #FFFFFF;
-    line-height: 1.6;
-  }
-  
-  header {
-    background-color: #252B99;
-    padding: 20px;
-    text-align: center;
-    border-bottom: 5px solid #FFF200;
-  }
-  
-  h1 {
-    color: #FFF200;
-    margin: 0;
-  }
-  
-  h2 {
-    color: #FFF200;
-    text-align: center;
-    margin-top: 40px;
-  }
-  
-  .image-gallery {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .images {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 20px;
-  }
-  
-  .images img {
-    max-width: 300px;
-    height: auto;
-    border: 3px solid #FFF200;
-    border-radius: 8px;
-  }
-  
-  .video {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: #3B2F7D;
-  }
-  
-  footer {
-    background-color: #252B99;
-    padding: 15px;
-    text-align: center;
-    font-size: 0.9em;
-    color: #FFFFFF;
-  }
-  
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #E3E9F3; /* Fondo uniforme: Azul pálido */
+  color: #2D3B46; /* Texto principal en gris oscuro con toques azules */
+  line-height: 1.6;
+}
+
+header {
+  background-color: #E3E9F3; /* Mismo fondo claro para armonizar */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #6B7C8A; /* Gris medio para el borde */
+}
+
+h1 {
+  color: #34495E; /* Título principal en azul marino oscuro para contrastar */
+  margin: 0;
+}
+
+h2 {
+  color: #6B7C8A; /* Subtítulos en gris medio para destacar sin restar jerarquía */
+  text-align: center;
+  margin-top: 40px;
+}
+
+.image-gallery {
+  padding: 20px;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.images img {
+  max-width: 500px;
+  height: auto;
+  border: 3px solid #34495E; /* Bordes de las imágenes en azul marino oscuro */
+  border-radius: 8px;
+}
+
+.video {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #E3E9F3; /* Fondo del video armonizado con el resto */
+}
+
+footer {
+  background-color: #E3E9F3; /* Fondo del pie de página igual al principal */
+  padding: 15px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #34495E; /* Texto en azul marino oscuro para el footer */
+}
+
